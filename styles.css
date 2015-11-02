@@ -1,0 +1,86 @@
+#timing{
+	position: relative;
+	width: 530px;
+	height: 530px;
+	border: 1px solid #bababa;
+	padding: 10px;
+}
+
+.transform-box{
+	font-size: 12px;
+	position: relative;
+	width: 60px;
+	height: 60px;
+	background-color: #ddd;
+	margin: 10px;
+}
+
+#ease{
+	-webkit-transition: all 4s ease-in;
+	-moz-transition: all 4s ease-in;
+	-0-transition: all 4s ease-in;
+	transition: all 2s ease-in;
+	border: 1px #f00 solid;
+
+}
+
+#timing:hover .transform-box{
+	transform: rotate(360deg);
+	margin-left: 420px;
+	border-radius: 50%;
+
+}
+
+#ease-out{
+transition: all 2s ease-out;
+	border: 1px #f00 solid;
+}
+
+#ease-in-out{
+	transition: all 2s ease-out;
+	border: 1px #f00 solid;
+}
+
+#linear{
+	transition: all 2s linear;
+	border: 1px #f00 solid;
+}
+
+#custom{
+	transition: all 2s cubic-bezier(1.00, 0.835, 0.000, 0.945);
+	border: 1px #f00 solid;
+}
+
+
+#awesome{
+	transition: all 2s cubic-bezier(.23, -.5, .42, .91);
+	border: 1px #f00 solid;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
